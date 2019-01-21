@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ahmicqui | Home</title>
+    <link href="Slider.css" rel="stylesheet" />
+    <link href="Home.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href= "image.png"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="banner-wrapper">
+        <header>
+          <div id="header-wrapper">
+            <img src="https://i.ibb.co/xSQgqr2/image2.png" alt="logo" id="logo">
+            <nav>
+              <ul>
+                <div id="a-alignright">
+                  <li><a href="index.html" class="current">Home</a></li>
+                  <li><a href="Aboutme.html">About Me</a></li>
+                  <li><a href="Resume.html">Resume</a></li>
+                  <li><a href="Artifacts.html">Artifacts</a></li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <script src="Slider.js"></script>
+        <div class="slide-wrap">
+          <section class="slider">
+            <ul class="slider1">
+              <li><img src="https://i.ibb.co/bKcXtrF/edit3-1.jpg" alt="image1"></li>
+              <li><img src="https://i.ibb.co/kDkskvT/edit2-2.jpg" alt="image2"></li>
+              <li><img src="https://i.ibb.co/0MvkFbq/Be-Funky-photo-3.jpg" alt="image3"></li>
+            </ul>
+          </section>
+        </div>
+        <script type="text/javascript">
+          $('.slider1').bxSlider({
+            mode: 'fade',
+            captions: false,
+            auto:true,
+            pager:false,
+
+          });
+          $('.slider2').bxSlider({
+            pager:false,
+            captions: true,
+            maxSlides: 3,
+            minSlides: 1,
+            slideWidth: 230,
+            slideMargin: 10
+          });
+          $('.slider3').bxSlider({
+            mode: 'fade',
+            captions: false,
+            auto:true,
+            pager:false,
+            controls:false,
+          });
+        </script>
+      </div>
+
+      <section class="one-third">
+        <div class="icon-wrap">
+          <td><i class="fa fa-desktop"></i></td>
+        </div>
+        <h3>Web Design</h3>
+      </section>
+      <section class="one-third">
+        <div class="icon-wrap">
+          <td><i class="fa fa-pencil-square-o"></i></td>
+        </div>
+        <h3>Leadership</h3>
+      </section>
+      <section class="one-third">
+        <div class="icon-wrap">
+          <td><i class="fa fa-file-code-o"></i></td>
+        </div>
+        <h3>Development</h3>
+      </section>
+
+      <div class="clearfix-padding"></div>
+      <section class="one-third-padding">
+        <h3>1</h3>
+        <img src="https://images.pexels.com/photos/48606/pexels-photo-48606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image 5">
+        <p>I start each project by gathering the information and client's requirements which...</p>
+      </section>
+      <section class="one-third-padding">
+        <h3>2</h3>
+        <img src="https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image6">
+        <p>I start each project by gathering the information and client's requirements which...</p>
+      </section>
+      <section class="one-third-padding">
+        <h3>3</h3>
+        <img src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image7">
+        <p>I start each project by gathering the information and client's requirements which...</p>
+      </section>
+
+    </div>
+
+    <div class="clearfix-padding"></div>
+    <footer>
+      <div id="banner-wrapper">
+        <div class="icon-text">
+          <div class="icon-text-icon">
+            <ul class="footer-nav">
+              <li><a href="index.html" class="current">Home</a></li>
+              <li><a href="Aboutme.html">About Me</a></li>
+              <li><a href="Resume.html">Resume</a></li>
+              <li><a href="Artifacts.html">Artifacts</a></li>
+            </ul>
+          </div>
+          <div class="icon-text-text">
+            <ul class="social">
+              <li><a href="mailto:williamlopez@ahmicqui.com"><i class="email"></i></a></li>
+              <li><a href="https://www.facebook.com/###/"><i class="facebook"></i></a></li>
+              <li><a href="https://twitter.com/IamAhmicqui"><i class="twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/william-lopez-/"><i class="linkedin"></i></a></li>						
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="second">
+      <small>Ahmicqui Web Design, Copyright &copy; 2018</small>
+    </footer>
+
+  </body>
+</html>
